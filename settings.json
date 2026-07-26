@@ -1,0 +1,18 @@
+{
+  "lastChangelogVersion": "0.82.1",
+  "theme": "bearded-black-gold-soft",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.6-sol",
+  "defaultThinkingLevel": "high",
+  "treeFilterMode": "default",
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "packages": [
+    "npm:@juicesharp/rpiv-todo",
+    "npm:pi-simplify",
+    "npm:@tintinweb/pi-subagents",
+    "npm:pi-web-access",
+    "npm:zed-notify"
+  ]
+}

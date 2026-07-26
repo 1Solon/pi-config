@@ -1,0 +1,39 @@
+# Pi credentials and potentially secret provider configuration
+auth.json
+models.json
+.env
+.env.*
+.npmrc
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*credentials*.json
+*secret*.json
+
+# Session history and extension runtime state
+sessions/
+state/
+ayu/
+trust.json
+models-store.json
+*.log
+
+# Installed packages, dependencies, and downloaded binaries
+node_modules/
+**/node_modules/
+npm/
+git/
+bin/
+
+# Build/test output
+coverage/
+dist/
+build/
+*.tsbuildinfo
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
