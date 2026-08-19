@@ -16,9 +16,3 @@ pi
 ```
 
 Pi installs the packages listed in `settings.json` when it starts. The selected theme is supplied by the configured `awesome-pi-themes` package, so there is no local theme file to restore.
-
-## Not backed up
-
-Credentials (`auth.json`), provider secrets (`models.json`), session history, runtime state, installed packages, generated model catalogs, checkpoints, and downloaded binaries are intentionally ignored. Run `/login` after restoring credentials on a new machine.
-
-Before committing future changes, check `git diff --staged` for secrets.
