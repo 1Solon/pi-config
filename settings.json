@@ -1,18 +1,30 @@
 {
-  "lastChangelogVersion": "0.82.1",
-  "theme": "bearded-black-gold-soft",
+  "lastChangelogVersion": "0.84.2",
+  "theme": "ember-sunset",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
   "defaultThinkingLevel": "high",
-  "treeFilterMode": "default",
+  "tuiMode": "fullscreen",
+  "fullscreenExitOutput": "transcript",
+  "fullscreenScrollbar": "hidden",
   "terminal": {
-    "showTerminalProgress": true
+    "showTerminalProgress": false
   },
+  "steeringMode": "one-at-a-time",
+  "transport": "auto",
+  "showCacheMissNotices": false,
   "packages": [
-    "npm:@juicesharp/rpiv-todo",
-    "npm:pi-simplify",
-    "npm:@tintinweb/pi-subagents",
     "npm:pi-web-access",
-    "npm:zed-notify"
-  ]
+    "npm:pi-protected-paths",
+    "npm:@spences10/pi-confirm-destructive",
+    "npm:pi-subagents",
+    "npm:pi-background-tasks",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:awesome-pi-themes",
+    "npm:@pi-kaush/pi-welcome-screen@0.1.3"
+  ],
+  "quietStartup": false,
+  "collapseChangelog": true,
+  "showHardwareCursor": false
 }
